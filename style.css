@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #faf0cd, #fab397);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    width: 50%;
+}
+
+.time-display {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.timezone-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.timezone-btn:hover {
+    background-color: #e0e0e0;
+}
+
+#timezone-prev {
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+}
+
+#timezone-next {
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+}
